@@ -1,4 +1,6 @@
-
+import Nav from './components/nav'
+import Table from './components/table'
+import './App.css'
 import { useState } from 'react'
 
 //
@@ -16,7 +18,8 @@ function App() {
 
   return (
     <div>
-
+      <Nav className="nav" />
+      <Table />
     </div>);
 }
 
